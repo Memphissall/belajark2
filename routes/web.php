@@ -24,3 +24,7 @@ Route::get('/nama', function () {
 Route::get('/kelas', function () {
     return ('kelas saya adalah isal');
 });
+
+Route::get('/hobi', function () {
+    return ('hobi saya adalah main bola');
+});
