@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/nama', function () {
     return ('nama saya adalah isal');
 });
+
+Route::get('/kelas', function () {
+    return ('kelas saya adalah ase10');
+});
